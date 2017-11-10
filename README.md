@@ -12,12 +12,12 @@ react-native 支付宝手机支付模块
 7. 编译运行
 
 ##Android
-* `npm install rn-alipay --save`
+* `npm install rn-alipay-duang --save`
 ```java
 // file: android/settings.gradle
 ...
-include ':rn-alipay'  // <- add
-project(':rn-alipay').projectDir = new File(settingsDir, '../node_modules/rn-alipay/android')  // <- add
+include ':rn-alipay-duang'  // <- add
+project(':rn-alipay-duang').projectDir = new File(settingsDir, '../node_modules/rn-alipay-duang/android')  // <- add
 ```
 
 ```java
@@ -25,7 +25,7 @@ project(':rn-alipay').projectDir = new File(settingsDir, '../node_modules/rn-ali
 ...
 dependencies {
 		...
-		compile project(':rn-alipay')  // <- add
+		compile project(':rn-alipay-duang')  // <- add
 }
 ```
 * 注册模块
@@ -108,7 +108,7 @@ public class MainApplication extends Application implements ReactApplication {
 ##使用说明
 1. 导入模块
 ```javascript
-const Alipay = require('rn-alipay');
+const Alipay = require('rn-alipay-duang');
 ```
 2. 基本使用
 ```javascript

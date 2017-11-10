@@ -1,12 +1,10 @@
 {
-  "name": "rn-alipay",
+  "name": "rn-alipay-duang",
   "description": "react native支付宝移动支付模块",
   "author": "huang zuizui",
   "contributors": [
-    {
-      "name": "huang zuizui",
-      "email": "huangzuizui@gmail.com"
-    }
+    "huang zuizui <huangzuizui@gmail.com>",
+    "tingjun li<tingjun.li@qq.com>"
   ],
   "keywords": [
     "alipay",
@@ -22,5 +20,16 @@
   "license": "MIT",
   "main": "rn-alipay.js",
   "nativePackage": true,
-  "version": "0.3.0"
+  "version": "0.1.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litingjun2015/rn-alipay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/litingjun2015/rn-alipay/issues"
+  },
+  "homepage": "https://github.com/litingjun2015/rn-alipay#readme"
 }
